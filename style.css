@@ -12,6 +12,9 @@
   width: 10%;
 }
 
+header {
+    height: 25px;
+}
 
 .main {
   width: 90%;
@@ -72,34 +75,4 @@ aside {
     flex-direction: column;
     border-radius: 10px;
 }
-header {
-    height: 50px;
-    display: flex;
-    justify-content: space-between;
-  }
-  .left_head {
-    border: 1px solid #000;
-    border-radius: 10px;
-    width: 70%;
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: rgb(41, 44, 93);
-  }
-  .left_head > span {
-    border: 1px solid #000;
-    border-radius: 5px;
-    padding: 5px;
-    background-color: rgb(93, 93, 112);
-  }
-  .right_head {
-    border: 1px solid rgb(41, 44, 93);
-    border-radius: 10px;
-    width: 20%;
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
 
