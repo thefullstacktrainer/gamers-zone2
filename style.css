@@ -12,10 +12,6 @@
   width: 10%;
 }
 
-header {
-  height: 25px;
-}
-
 .main {
   width: 90%;
   display: flex;
@@ -49,12 +45,33 @@ aside {
 }
 
 .profile {
-  flex: 1;
+    flex: 1;
+    display: flex;
+    border-radius: 10px;
+    margin: 3px;
 }
 
 .fl1 {
   flex: 1;
 }
+.text {
+    flex: 1;
+}
+.image {
+    flex: 1;
+    height: inherit;
+}
+
+.images{
+    flex: 1;
+}
+.rating{
+    display: flex;
+    height: inherit;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
 header {
   height: 50px;
   display: flex;
@@ -85,3 +102,5 @@ header {
   align-items: center;
   justify-content: space-between;
 }
+
+
